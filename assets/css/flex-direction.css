@@ -1,0 +1,33 @@
+body{
+    color: black;
+    font-family: monospace;
+
+}
+.item{
+    margin: 5px;
+    background-color: coral;
+    text-align: center;
+    flex: 1; /*necessário para que cada item se expanda ocupando o tamanho maximo do container*/
+}
+.container{
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 1.25em;
+    font-weight: 500;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.collumn{
+    flex-direction: column;
+}
+.collumn-reverse{
+    flex-direction: column-reverse;
+}
